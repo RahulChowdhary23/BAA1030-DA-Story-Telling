@@ -1,0 +1,78 @@
+---
+title: "Global Insights on Iodized Salt Consumption"
+author:
+  Rahul Chowdhary DCU Id -11792
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 2
+    code-fold: true
+    page-layout: full
+    embed-resources: true
+execute:
+  warning: false
+  message: false
+  jupyter: python3
+---
+
+# About This Report
+
+The Tableau version of this report can be found in **[Click here](https://public.tableau.com/views/IodineVsChildDeprivation/Dashboard12?:language=en-US&:sid=&:redirect_auth=&:display_count=n&:origin=viz_share_link)**
+
+Iodized salt consumption is a simple yet powerful proxy for understanding global public health efforts, particularly in preventing iodine deficiency disorders.
+
+# Introduction
+
+Iodine is a crucial micronutrient necessary for thyroid health, brain development, and growth.  
+Universal salt iodization is one of the most successful public health initiatives globally.  
+This report explores trends in iodized salt consumption based on UNICEF datasets through a series of visual analyses.
+
+# Iodized Salt Consumption Across Countries
+
+![](images/worldmap.png){fig-align="center" width="85%"}
+
+**Insight:**  
+
+- The **_choropleth map_** shows **strong iodization coverage** in _Asia_ and _Latin America_.
+- Meanwhile, **_Sub-Saharan Africa_** and parts of the **_Middle East lag behind_** in iodized salt consumption.
+- **_Concentrated initiatives_** are needed to extend **iodine fortification efforts** to these _underserved regions_.
+
+
+# Recommended Daily Iodine Intake by Age Group
+
+![](images/barchart.png){fig-align="center" width="70%"}
+
+**Insight:**  
+
+- **_Iodine requirements_** vary **significantly** across _different life stages_.
+- **_Nutritional programs_** must prioritize **adolescents** and **pregnant women**.
+- These groups have **substantially higher iodine needs** compared to others
+
+
+# Global Average Iodized Salt Consumption (2000–2020)
+
+![](images/linechart.png){fig-align="center" width="80%"}
+
+**Insight:**  
+
+- **_Global average consumption_** of iodized salt shows a **steady upward trend** from _2000 to 2020_.
+- This trend demonstrates the **success of widespread public health initiatives** promoting _salt iodization_.
+
+# Trend of Iodized Salt Consumption Over Time
+
+![](images/scatter_reg.png){fig-align="center" width="80%"}
+**Insight:**  
+
+- The **_scatter plot with a regression line_** indicates a **positive overall trend** in _iodized salt consumption over time_.
+- However, **_variability among individual countries_** suggests that **targeted interventions** remain **critical**.
+
+
+# Conclusion
+
+Iodized salt consumption has improved significantly at the global level, preventing millions of cases of iodine deficiency-related disorders.  
+Nonetheless, to completely eliminate iodine deficiency disorders (IDDs), continuous and targeted efforts are essential — especially in vulnerable countries where iodization coverage remains insufficient.
+
+---
